@@ -1,3 +1,5 @@
+package org.capstoneproject.logging;
+
 import java.util.ArrayList;
 import java.io.*;
 import java.util.Calendar;
