@@ -1,12 +1,14 @@
-package org.capstoneproject.logging;
-
 import java.util.ArrayList;
 import java.io.*;
+import java.util.Calendar;
+import java.text.*;
+
+/*Used to created instances of Logger class meant to serve thread based objects in accessing a log write to file*/
 
 public class Logger extends MasterLogger {
 
    private ArrayList<String> toWrite;
-   private long timeStamp;
+   private String timeStamp;
    
    public Logger() {
    
@@ -16,7 +18,12 @@ public class Logger extends MasterLogger {
    
    public void log(String level, String subComponent, String entry) {      
    
-      toWrite.add("Debug: " + level + " Subcomponent: " + subComponent + "Entry: " + entry);
+      timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+   
+      if(level.equals("NORM") || level.equals("norm"))
+            toWrite.add(timeStamp + " : " + subComponent + " : " + entry);
+      else
+            toWrite.add( timeStamp + " : " + subComponent + " : " + entry + " - [Debug Status - " + level + " ]");
          
    }
    
@@ -40,6 +47,7 @@ public class Logger extends MasterLogger {
      finally {
          super.semaphore.release();//allows next Logger in line to write to file
      }
+     
    }
 
 }

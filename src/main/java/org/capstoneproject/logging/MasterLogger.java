@@ -1,26 +1,28 @@
-package org.capstoneproject.logging;
-
 import java.util.concurrent.*;
 import java.io.*;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Collections;
+
+/*MasterLogger is a shell that lets a program using the logger initialize a filewriter.  MasterLogger also contains static objects to protect the file writing process*/
 
 public  class MasterLogger {
 
-   protected static Semaphore semaphore;
+   protected static Semaphore semaphore;//protects file writing process
    
    private static java.io.File outFile;
    private static java.io.PrintWriter outStream;
    private static Scanner inStream;
    private static String fileName;
-   protected static ArrayList<String> fileContentHolder;
+   protected static ArrayList<String> fileContentHolder;//contains contents of log during file sort process
    
+   public static long testTime;
    
-   public MasterLogger() {
+   public MasterLogger() {//not used
    
    }
    
-   public MasterLogger(String passedFileName) {
+   public MasterLogger(String passedFileName) {//used in user program's main function to initialize fileWriter
    
       semaphore = new Semaphore(1);
       
@@ -29,7 +31,7 @@ public  class MasterLogger {
          
          outFile = new java.io.File(fileName);
          outStream = new java.io.PrintWriter(outFile);
-         outStream.println("");//ensures the file has content
+         outStream.println("");//ensures the file has content to enable sort
          inStream = new Scanner(fileName);
       }
       catch(IOException ex) {}
@@ -71,8 +73,8 @@ public  class MasterLogger {
 
    private void sortFile() {
    
-      //will eventually sort file
+      Collections.sort(fileContentHolder);//using library sort method is simplest implementation, and fulfills functional requirements
    
    }
    
-}
+ }
