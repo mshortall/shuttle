@@ -1,3 +1,9 @@
+/**
+ *	This is a very trivial class. It was designed to help generate a log entry.
+ *	It is used by the RequestHandler class to log events into the system log.
+ *	@author Daman
+*/
+
 package org.capstoneproject.logging;
 
 import java.util.Date;
@@ -56,7 +62,7 @@ public class Entry {
 		Date now = new Date();
 		String out = "";
 		
-		out += "[" + now + "] ";
+		out += " ";
 		out += requestedResource + " ";
 		out += status;
 		

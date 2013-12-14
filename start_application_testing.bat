@@ -1,0 +1,1 @@
+java -cp target/webserver-1.jar org.capstoneproject.tests.ApplicationTesting

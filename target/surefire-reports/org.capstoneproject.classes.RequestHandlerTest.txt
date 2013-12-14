@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.capstoneproject.classes.RequestHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.937 sec
