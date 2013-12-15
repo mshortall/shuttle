@@ -42,9 +42,11 @@ public class Cacher {
             array = map.get(name);
             logger.log("Norm", "Cacher", "<INFO> HIT : Hit on key <" +name+ ">"
                     + " with value <" +map.get(name)+">");
+						logger.close();
         } else {
             logger.log("Norm", "Cacher", "<INFO> MISS : Miss on key <" +name+ ">");
-        }
+        		logger.close();
+				}
         return array;
     }
     

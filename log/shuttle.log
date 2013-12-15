@@ -2,6 +2,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 20131214_181541 : Daemon  : We have liftoff on port: 3000
 20131214_181551 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
 20131214_181551 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
@@ -51,4 +63,26 @@
 20131214_202518 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
 20131214_202518 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
 20131214_202522 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131215_000900 : Daemon  : We have liftoff on port: 3000
+20131215_000916 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131215_000916 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131215_000916 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131215_000920 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131215_000920 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131215_000920 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131215_000920 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131215_000920 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131215_000924 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131215_000924 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131215_000924 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131215_000924 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131215_000924 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131215_000928 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131215_000928 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131215_000928 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131215_000928 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131215_000928 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131215_000928 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131215_000928 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131215_000929 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
 
