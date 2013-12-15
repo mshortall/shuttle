@@ -14,6 +14,7 @@
 
 
 
+
 20131214_181541 : Daemon  : We have liftoff on port: 3000
 20131214_181551 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
 20131214_181551 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
@@ -85,4 +86,37 @@
 20131215_000928 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
 20131215_000928 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
 20131215_000929 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
-
+20131215_001959 : Daemon  : We have liftoff on port: 3000
+20131215_002010 : Cacher : <INFO> MISS : Miss on key <./htdocs//index.htmllocalhost> - [Debug Status - Norm ]
+20131215_002010 : Cacher : <INFO> MISS : Miss on key <./htdocs//index.htmllocalhost> - [Debug Status - Norm ]
+20131215_002010 : Cacher : <INFO> MISS : Miss on key <./htdocs//index.htmllocalhost> - [Debug Status - Norm ]
+20131215_002010 : Cacher : <INFO> MISS : Miss on key <./htdocs//index.htmllocalhost> - [Debug Status - Norm ]
+20131215_002010 : Cacher : <INFO> MISS : Miss on key <./htdocs//index.htmllocalhost> - [Debug Status - Norm ]
+20131215_002010 : Cacher : <INFO> MISS : Miss on key <./htdocs//index.htmllocalhost> - [Debug Status - Norm ]
+20131215_002010 : Cacher : <INFO> MISS : Miss on key <./htdocs//index.htmllocalhost> - [Debug Status - Norm ]
+20131215_002010 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./error_pages/notfound.htmllocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./error_pages/notfound.htmllocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./error_pages/notfound.htmllocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./error_pages/notfound.htmllocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./error_pages/notfound.htmllocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./htdocs//img/java.jpglocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./htdocs//img/java.jpglocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./htdocs//img/java.jpglocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./htdocs//img/java.jpglocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./htdocs//img/java.jpglocalhost> - [Debug Status - Norm ]
+20131215_002011 : Cacher : <INFO> MISS : Miss on key <./htdocs//img/java.jpglocalhost> - [Debug Status - Norm ]
+20131215_002011 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131215_002011 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131215_002016 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002016 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002016 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002016 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002016 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002016 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002016 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002016 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131215_002020 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002020 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002020 : Cacher : <INFO> HIT : Hit on key <./error_pages/notfound.htmllocalhost> with value <[B@6243d0cb> - [Debug Status - Norm ]
+20131215_002020 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
