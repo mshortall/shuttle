@@ -7,10 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class RequestHandlerTest extends SeleneseTestBase 
-{
- 	@Test
-	public void trivialTest() {}
-	
+{	
 	/** Invoked at the beginning of the test */
 	@Before
 	public void setUp() throws Exception {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="48.936" errors="0" skipped="0" tests="5" name="org.capstoneproject.classes.RequestHandlerTest">
+<testsuite failures="0" time="39.238" errors="0" skipped="0" tests="4" name="org.capstoneproject.classes.RequestHandlerTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_40\jre\bin"/>
@@ -61,9 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="10.002" classname="org.capstoneproject.classes.RequestHandlerTest" name="testCacheFault"/>
-  <testcase time="9.462" classname="org.capstoneproject.classes.RequestHandlerTest" name="testCacheFaultAndProperCaching"/>
-  <testcase time="9.894" classname="org.capstoneproject.classes.RequestHandlerTest" name="trivialTest"/>
-  <testcase time="10.53" classname="org.capstoneproject.classes.RequestHandlerTest" name="testRequestOk"/>
-  <testcase time="9.048" classname="org.capstoneproject.classes.RequestHandlerTest" name="testCacheHit"/>
+  <testcase time="11.405" classname="org.capstoneproject.classes.RequestHandlerTest" name="testRequestOk"/>
+  <testcase time="9.24" classname="org.capstoneproject.classes.RequestHandlerTest" name="testCacheHit"/>
+  <testcase time="9.218" classname="org.capstoneproject.classes.RequestHandlerTest" name="testCacheFault"/>
+  <testcase time="9.375" classname="org.capstoneproject.classes.RequestHandlerTest" name="testCacheFaultAndProperCaching"/>
 </testsuite>

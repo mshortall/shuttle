@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Daemon</title>
+	</head>
+	
+	<body style="margin: 0 auto; width: 70%; border: 1px solid black; margin-top: 10px; padding: 10px; ">		
+		<h1 style="text-align: center; ">Daemon</h1>
+
+		<img style="float: right; " src="img/java.jpg" height="250" width="250"/>	
+
+		<p style=" width: 400px; ">
+				
+			The Shuttle daemon is the master process. This part of the application provides the user with the ability to start the application and provide options like port number. 
+
+			It will also be the class handling the incoming connections. As Shuttle receives a connection request, it will be in charge of creating a new thread and handling the request with a RequestHandler instance.
+
+			This daemon will also be in charge of managing all sub-processes for RequestHandler, Logger and Caching instances.
+
+			When the user kills the Shuttle daemon he or she is stopping the server entirely.
+
+			<ul>
+				<li><a href="daemon.html">Daemon</a></li>
+				<li><a href="cacher.html">Cacher</a></li>
+				<li><a href="requestHandler.html">RequestHandler</a></li>
+				<li><a href="logger.html">Logger</a></li>
+			</ul>
+
+		</p>
+		
+	</body>
+	
+</html>
