@@ -7,19 +7,19 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class RequestHandlerTest extends SeleneseTestBase 
-{
+{	
 	/** Invoked at the beginning of the test */
 	@Before
 	public void setUp() throws Exception {
 		//selenium = new DefaultSelenium("localhost", 4444, "*chrome", "http://www.google.co.in/");
-		selenium = new DefaultSelenium("localhost", 
-				4444, "*chrome", "http://localhost:3000/index.html");
+		selenium = new DefaultSelenium("localhost",
+						4444, "*chrome", "http://localhost:3000/index.html");
 		selenium.start();
 	}
 
 	/** Used to test that a request was successful. It does this by
-	 *	fetching the web page, and ascertain that it contains
-	 *	expected text.
+	 *        fetching the web page, and ascertain that it contains
+	 *        expected text.
 	*/
 	@Test
 	public void testRequestOk() throws Exception {
@@ -28,9 +28,9 @@ public class RequestHandlerTest extends SeleneseTestBase
 	}
 	
 	/**
-	 *	Used to test a cache hit. It does this by making two
-	 *	requests, and ascertain that the second request takes
-	 *	less time than the second request */
+	 *        Used to test a cache hit. It does this by making two
+	 *        requests, and ascertain that the second request takes
+	 *        less time than the second request */
 	@Test
 	public void testCacheHit() {
 		long start = System.currentTimeMillis();
@@ -47,9 +47,9 @@ public class RequestHandlerTest extends SeleneseTestBase
 	}
 
 	/**
-	 *	Used to test a cache fault. It does this by making two
-	 *	requests, and ascertain that the first request takes
-	 *	longer than the second request */
+	 *        Used to test a cache fault. It does this by making two
+	 *        requests, and ascertain that the first request takes
+	 *        longer than the second request */
 	@Test
 	public void testCacheFault() {
 		long start = System.currentTimeMillis();
@@ -66,9 +66,9 @@ public class RequestHandlerTest extends SeleneseTestBase
 	}
 	
 	/**
-	 *	Used to test the caching system. It does this by making a series
-	 *	of requests, and making sure that the duration of each subsequent
-	 *	request is shorter than the very first */
+	 *        Used to test the caching system. It does this by making a series
+	 *        of requests, and making sure that the duration of each subsequent
+	 *        request is shorter than the very first */
 	@Test
 	public void testCacheFaultAndProperCaching() {
 		long start = System.currentTimeMillis();

@@ -101,13 +101,14 @@ public class RequestHandler implements Runnable
 		}
 		
 		// Log Entry!!!!!!!!!!!!!!
-		Logger log = response.getCacher().getLogger();
+		Logger log = new Logger();	/** Necessary b/c logger instance in Cacher causes Extra entries to be written in the log. */
 		Entry entry = new Entry();
 		entry.setClientAddr(request.getClientAddress());
 		entry.setRequestedResource(request.getRequestedResource());
 		entry.setStatus(response.getStatus());
 		
 		log.log("NORM", "RequestHandler", entry.toString());
+		log.close();
 		
 		sendResponse();
 	}

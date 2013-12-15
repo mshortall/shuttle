@@ -123,7 +123,8 @@ public class WebServer
 		}
 		
 		if (!options.containsKey("log")) {
-			options.put("log", "/tmp/shuttle.log");
+			//options.put("log", "/tmp/shuttle.log");
+			options.put("log", "./log/shuttle.log");
 		}
     }
 	

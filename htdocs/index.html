@@ -1,21 +1,34 @@
 <html>
 	<head>
-		<title>Index Page</title>
-		
-		<script type="text/javascript">
-			//alert ("hello World!");
-		</script>
+		<title>Shuttle</title>
 	</head>
 	
-	<body>		
-		<h1>Hello World!</h1>
+	<body style="margin: 0 auto; width: 70%; border: 1px solid black; margin-top: 10px; padding: 10px; ">		
+		<h1 style="text-align: center; ">Hello World!</h1>
+
+		<img style="float: right; " src="img/java.jpg" height="250" width="250"/>	
+
+		<p style=" width: 400px; ">
+				
+			<h2>Purpose</h2>
+				The Shuttle web server project is designed to be a basic web server that responds to HTTP GET requests. It will be able to handle multiple concurrent connections utilizing Java threading. Shuttle will also cache the most recent hits to increase the speed of returning requests.
+			
+			<h2>Scope</h2>
+				Shuttle is not meant to be on the same scale as Apache HTTPD, but instead a small basic server. It will provide concurrency for multiple connections and respond to HTTP GET requests with parsing of parameters. Additionally, it will log all connections and served pages.<br/><br/>
+
+				Shuttle will also implement a basic caching system to quickly return recently requested pages.
+				This document shall outline the components of the Shuttle web server to include the Daemon, Logger, Cacher and RequestHandler.  The document has been written with language intended for use by system architects, designers and developers.
+
+			<h2>Major Components of the Shuttle Web Server</h2>
+			<ul>
+				<li><a href="daemon.html">Daemon</a></li>
+				<li><a href="cacher.html">Cacher</a></li>
+				<li><a href="requestHandler.html">RequestHandler</a></li>
+				<li><a href="logger.html">Logger</a></li>
+			</ul>
+
+		</p>
 		
-		<form action="index.php">
-			Username: <input type="text" name="name" size="30"/><br/>
-			<input type="submit" value="Submit!"/>
-		</form>
-		
-		<img src="img/java.jpg" height="100" width="100"/>
 	</body>
 	
 </html>

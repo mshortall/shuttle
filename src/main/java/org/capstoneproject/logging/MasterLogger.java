@@ -32,8 +32,8 @@ public  class MasterLogger {
          fileName = passedFileName;
          
          outFile = new java.io.File(fileName);
-         outStream = new java.io.PrintWriter(outFile);
-         outStream.println("");//ensures the file has content to enable sort
+         outStream = new java.io.PrintWriter(new FileWriter(outFile, true));
+         //outStream.println("");//ensures the file has content to enable sort
          inStream = new Scanner(fileName);
       }
       catch(IOException ex) {}
@@ -62,7 +62,7 @@ public  class MasterLogger {
    private void writeToFile() throws IOException {
       
       outStream = new PrintWriter(outFile);//clears file
-            
+      
       for(int x = 0; x < fileContentHolder.size(); x++){
       
          outStream.println(fileContentHolder.get(x));

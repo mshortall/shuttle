@@ -1,0 +1,54 @@
+
+
+
+
+20131214_181541 : Daemon  : We have liftoff on port: 3000
+20131214_181551 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_181551 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_181557 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_181630 : RequestHandler :  ./error_pages/requestForbidden.html HTTP/1.1 403 Request Forbidden
+20131214_181851 : Daemon  : We have liftoff on port: 3000
+20131214_181917 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_181917 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_181917 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_181926 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_181926 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_181926 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_181927 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_181927 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_181947 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_181947 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_181947 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_181956 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_181956 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_181956 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_182133 : Daemon  : We have liftoff on port: 3000
+20131214_182214 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_182215 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_182218 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_182229 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_182241 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_201701 : Daemon  : We have liftoff on port: 3000
+20131214_201740 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_201740 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_201740 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_201749 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_201749 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_201749 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_201758 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_201758 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_201758 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_201759 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_201759 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_201759 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_201807 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_201808 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_201808 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_201808 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_201808 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_202512 : Daemon  : We have liftoff on port: 3000
+20131214_202518 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+20131214_202518 : RequestHandler :  ./htdocs//img/java.jpg HTTP/1.1 200 OK
+20131214_202518 : RequestHandler :  ./htdocs//index.html HTTP/1.1 200 OK
+20131214_202522 : RequestHandler :  ./error_pages/notfound.html HTTP/1.1 404 NotFound
+

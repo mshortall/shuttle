@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Cacher</title>
+	</head>
+	
+	<body style="margin: 0 auto; width: 70%; border: 1px solid black; margin-top: 10px; padding: 10px; ">		
+		<h1 style="text-align: center; ">Cacher</h1>
+
+		<img style="float: right; " src="img/java.jpg" height="250" width="250"/>	
+
+		<p style=" width: 400px; ">
+				
+			The Cacher is responsible for keeping recently requested pages in memory. As pages are requested by outside systems, the RequestHandler should first look to the Cacher to see if Shuttle currently has the page in memory. If the page is stored in memory, Shuttle can serve the page without performing slower I/O operations.  Otherwise, the RequestHandler should retrieve the page and provide the Cacher with the served page.
+
+			The Cacher should implement a Least Recently Used algorithm, LRU. It will be responsible for swapping pages in and out of memory, and also responding to page requests from the RequestHandler returning either the page requested or a fault.
+
+
+			<ul>
+				<li><a href="Cacher.html">Cacher</a></li>
+				<li><a href="cacher.html">Cacher</a></li>
+				<li><a href="requestHandler.html">RequestHandler</a></li>
+				<li><a href="logger.html">Logger</a></li>
+			</ul>
+
+		</p>
+		
+	</body>
+	
+</html>
